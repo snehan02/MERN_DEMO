@@ -1,0 +1,69 @@
+body {
+  text-align: center;
+  padding: 6rem 1rem 2rem;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 3rem;
+}
+
+.todo-input {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  width: min(100%, 32rem);
+  margin: 0 auto;
+}
+
+#todo {
+  margin-bottom: 1.5rem;
+}
+
+#todo-list {
+  width: min(100%, 40rem);
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  text-align: left;
+}
+
+.task-content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 0;
+  flex: 1;
+}
+
+.task-checkbox {
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.task-text {
+  overflow-wrap: anywhere;
+}
+
+.list-group-item.completed .task-text {
+  color: #6c757d;
+  text-decoration: line-through;
+}
+
+.task-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.edit-input {
+  flex: 1;
+}
